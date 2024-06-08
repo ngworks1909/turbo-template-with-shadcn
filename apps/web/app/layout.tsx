@@ -3,9 +3,6 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { Providers } from "@repo/ui/providers";
 
-
-
-
 const inter = Poppins({ subsets: ["latin"], weight: "500", variable:'--poppins' });
 
 export const metadata: Metadata = {
