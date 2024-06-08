@@ -1,0 +1,10 @@
+{
+  "name": "@repo/actions",
+  "version": "0.0.0",
+  "dependencies": {
+    "@repo/ui": "*"
+  },
+  "exports": {
+    "./fetchOrders": "./src/fetchOrders.ts"
+  }
+}

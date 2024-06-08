@@ -1,0 +1,14 @@
+{
+  "name": "@repo/store",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "recoil": "^0.7.7"
+  },
+  "exports": {
+    "./userstate": "./src/atoms/UserState.tsx",
+    "./navprofilestate": "./src/atoms/NavProfileState.tsx",
+    "./useFetchData": "./src/hooks/useFetchData.tsx",
+    "./useCardData": "./src/hooks/useCardData.tsx"
+  }
+}

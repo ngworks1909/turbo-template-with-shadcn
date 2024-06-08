@@ -1,0 +1,41 @@
+{
+  "name": "tlrs",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "dotenv -- turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "dotenv-cli": "latest",
+    "prettier": "^3.2.5",
+    "prisma": "^5.14.0",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.2.4",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@nextui-org/react": "^2.4.0",
+    "@prisma/client": "^5.14.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv-cli": "^7.4.1",
+    "framer-motion": "^11.2.9",
+    "fs": "^0.0.1-security",
+    "next-auth": "^4.24.7",
+    "react-icons": "^5.2.1",
+    "react-toastify": "^10.0.5",
+    "recoil": "^0.7.7",
+    "shadcn-ui": "^0.8.0"
+  }
+}
