@@ -20,7 +20,7 @@ export default function Home() {
          <CardSkeleton/>
          </>: <>
          {carditems.map((card,index) => {
-          return <Card key={index} image={card.image} id={card.id} dress={card.dress}/>
+          return <Card key={index} image={card.image} id={card.id} dress={card.dress} content={card.content} />
          })}
          </> }
     </div>
