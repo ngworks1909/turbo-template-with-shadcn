@@ -29,7 +29,6 @@
   "dependencies": {
     "@nextui-org/react": "^2.4.0",
     "@prisma/client": "^5.14.0",
-    "aos": "^2.3.4",
     "bcryptjs": "^2.4.3",
     "dotenv-cli": "^7.4.1",
     "framer-motion": "^11.2.9",
