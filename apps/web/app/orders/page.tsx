@@ -25,7 +25,7 @@ export default async function page() {
             <span className='text-2xl font-semibold'>any order</span>
         </div>:
         <div className='grid grid-cols-1 gap-5 px-10 pb-10 pt-5 mlg:grid-cols-1 lg:grid-cols-2'>
-           {orders.map((order: Order, index) => {
+           {orders.map((order: Order, index: number) => {
              return <OrderCard key={index} orderDate={order.orderDate} itemname={order.itemname} service={order.service} status={order.status} />
            })}
         </div>}
