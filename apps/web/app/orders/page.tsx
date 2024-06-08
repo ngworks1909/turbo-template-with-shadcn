@@ -4,6 +4,13 @@ import OrderCard from '@repo/ui/OrderCard'
 import React from 'react'
 import { fetchOrders } from '@repo/actions/fetchOrders'
 
+type Order = {
+  orderDate: Date,
+  itemname: string,
+  service: string,
+  status: string,
+}
+
 export default async function page() {
   const orders = await fetchOrders();
   return (
@@ -18,7 +25,7 @@ export default async function page() {
             <span className='text-2xl font-semibold'>any order</span>
         </div>:
         <div className='grid grid-cols-1 gap-5 px-10 pb-10 pt-5 mlg:grid-cols-1 lg:grid-cols-2'>
-           {orders.map((order, index) => {
+           {orders.map((order: Order, index) => {
              return <OrderCard key={index} orderDate={order.orderDate} itemname={order.itemname} service={order.service} status={order.status} />
            })}
         </div>}
