@@ -12,6 +12,7 @@
     "./Logout": "./src/components/Logout.tsx",
     "./Card": "./src/components/Card.tsx",
     "./pricegroup": "./src/components/PriceGroup.tsx",
+    "./priceitem": "./src/components/PriceItem.tsx",
     "./auth": "./src/lib/auth.ts",
     "./navskeleton": "./src/skeletons/NavSkeleton.tsx",
     "./cardskeleton": "./src/skeletons/CardSkeleton.tsx",

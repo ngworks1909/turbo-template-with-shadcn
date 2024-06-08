@@ -4,7 +4,7 @@ import Navbar from '@repo/ui/Navbar';
 import {useParams} from 'next/navigation'
 import useFetchData from '@repo/store/useFetchData';
 import PriceSkeleton from '@repo/ui/priceskeleton';
-import PriceItem from '../../../../../packages/ui/src/components/PriceItem';
+import PriceItem from '@repo/ui/priceitem';
 import NavSkeleton from '@repo/ui/navskeleton';
 
 
