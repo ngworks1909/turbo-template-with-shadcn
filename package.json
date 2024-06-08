@@ -10,6 +10,7 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
+    "@types/aos": "^3.0.7",
     "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.6",
     "dotenv-cli": "latest",
@@ -28,6 +29,7 @@
   "dependencies": {
     "@nextui-org/react": "^2.4.0",
     "@prisma/client": "^5.14.0",
+    "aos": "^2.3.4",
     "bcryptjs": "^2.4.3",
     "dotenv-cli": "^7.4.1",
     "framer-motion": "^11.2.9",

@@ -23,7 +23,7 @@ export default function page() {
             </span>
             <span className='text-2xl font-medium'>PANTS</span>
            </div>
-           <div className='h-56 w-56 shadow-custom rounded-3xl flex items-center flex-col flex-1 p-10'>
+           <div  className='h-56 w-56 shadow-custom rounded-3xl flex items-center flex-col flex-1 p-10'>
             <span className='text-3xl font-semibold flex-1 flex items-center'>
               <span>1500+</span>
             </span>

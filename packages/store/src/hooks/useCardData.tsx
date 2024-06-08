@@ -1,5 +1,6 @@
 "use client"
-import {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react';
+
 type Card = {
     image: string,
     id: string,
