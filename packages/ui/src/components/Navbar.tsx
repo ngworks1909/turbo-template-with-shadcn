@@ -2,10 +2,7 @@
 import Link from "next/link";
 import { FaRegQuestionCircle, FaRegUser } from 'react-icons/fa';
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Avatar} from "@nextui-org/react";
-
 import { HiMenuAlt3 } from "react-icons/hi";
-// import NavProfile from "./NavProfile";
-// import NavOptions from "../providers/navoptions";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
