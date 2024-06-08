@@ -2,7 +2,7 @@
   "name": "tlrs",
   "private": true,
   "scripts": {
-    "build": "turbo build && cd ./packages/db && npx prisma generate",
+    "build": "cd ./packages/db && npx prisma generate && turbo build",
     "dev": "dotenv -- turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
