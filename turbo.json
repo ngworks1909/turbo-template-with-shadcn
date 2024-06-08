@@ -20,18 +20,5 @@
     "test": {
       "dotEnv": [".env.test.local", ".env.test", ".env"]
     }
-  },
-  "tasks": {
-    "dev": {
-      "dependsOn": ["^db:generate"],
-      "cache": false
-    },
-    "build": {
-      "dependsOn": ["^db:generate"],
-      "outputs": ["your-outputs-here"]
-    },
-    "db:generate": {
-      "cache": false
-    }
   }
 }
