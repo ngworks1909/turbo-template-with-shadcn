@@ -1,4 +1,3 @@
-"use client"
 import Navbar from "@repo/ui/Navbar";
 import Card from "@repo/ui/Card";
 
