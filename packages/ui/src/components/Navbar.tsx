@@ -49,7 +49,7 @@ export default function Navbar() {
                    </div>
                 </DropdownItem>
                 <DropdownItem className="hover:bg-grayimp mt-1">
-                <Link href="/" className="flex items-center px-2 py-1 rounded-lg">
+                <Link href="/profile" className="flex items-center px-2 py-1 rounded-lg">
                       <FaRegUser className="mr-4 text-white" size={20}/>
                       <span className="text-white">Profile</span>
                 </Link>
