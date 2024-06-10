@@ -3,6 +3,7 @@ import React from 'react'
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 
 
+
 export default function page() {
   return (
     <div className='h-dvh w-dvw bg-slate-50 overflow-y-auto overflow-x-hidden'>
