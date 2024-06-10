@@ -1,7 +1,10 @@
 "use client"
 import { AiOutlineRight, AiOutlineArrowRight } from "react-icons/ai";
+import {CardType} from '@repo/zod/cardtype'
 import {useRouter} from 'next/navigation';
-export default function Card({image, dress, id, content}: {image:string, dress: string, id:string, content: string}) {
+
+
+export default function Card({image, dress, id, content}: CardType) {
   const router = useRouter();
   return (
     <div className="shadow-xl border-[1px] bg-white border-[#e5e7eb] h-64 p-5 cursor-pointer rounded-xl flex hover:border-[#b5c5ea] vsm:flex-col vsm:h-96 vvsm:flex-col vvsm:h-96"

@@ -7,8 +7,8 @@
   },
   "exports": {
     "./userstate": "./src/atoms/UserState.tsx",
-    "./navprofilestate": "./src/atoms/NavProfileState.tsx",
     "./useFetchData": "./src/hooks/useFetchData.tsx",
+    "./navopen": "./src/atoms/NavOpen.tsx",
     "./useCardData": "./src/hooks/useCardData.tsx"
   }
 }

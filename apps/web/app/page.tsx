@@ -1,8 +1,9 @@
 import Navbar from "@repo/ui/Navbar";
 import Card from "@repo/ui/Card";
+import {CardType} from '@repo/zod/cardtype'
 
 export default function Home() {
-  const carditems = [
+  const carditems: CardType[] = [
     {
       image: "https://firebasestorage.googleapis.com/v0/b/tlrs-893dc.appspot.com/o/shirt.jpeg?alt=media&token=81829c94-9579-4ba6-a723-b06209bf3f76",
       dress: "SHIRT",
@@ -41,7 +42,7 @@ export default function Home() {
       <div className="text-[#000000b0] pl-10 mt-5 text-3xl font-semibold shadow-black drop-shadow-xl">Services</div>
       <div className="grid grid-cols-1 gap-5 px-10 pb-10 pt-5 lg:grid-cols-2">
       <>
-         {carditems.map((card,index) => {
+         {carditems.map((card: CardType, index: number) => {
           return <Card key={index} image={card.image} id={card.id} dress={card.dress} content={card.content} />
          })}
       </> 

@@ -5,6 +5,7 @@
     "zod": "^3.23.6"
   },
   "exports": {
-    "./validateUser": "./src/validateUser.ts"
+    "./validateUser": "./src/validateUser.ts",
+    "./cardtype": "./src/types/CardType.ts"
   }
 }
