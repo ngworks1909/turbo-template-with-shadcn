@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex w-full justify-evenly vvsm:flex-col vvsm:items-center">
         <div className="flex flex-col gap-20 vvsm:flex-row">
             <div className="flex items-center gap-2">
-                <input className="h-8 w-8 rounded-full invert" type="image" src="https://firebasestorage.googleapis.com/v0/b/tlrs-893dc.appspot.com/o/logo.png?alt=media&token=56a9e7d0-9579-47b2-9713-4e7bf5f81d9e" alt="NG" />
+                <input className="h-8 w-8 rounded-full invert" type="image" src="https://firebasestorage.googleapis.com/v0/b/tlrs-893dc.appspot.com/o/logo.png?alt=media&token=e32751af-93b0-44ca-b42d-0dbc0e8cfe00" alt="TL" />
                 <span className="text-2xl font-semibold drop-shadow-md text-[#666]">TLRS</span>
             </div>
             <div className="flex items-center justify-center gap-5">
