@@ -18,7 +18,8 @@
     "./cardskeleton": "./src/skeletons/CardSkeleton.tsx",
     "./priceskeleton": "./src/skeletons/PriceSkeleton.tsx",
     "./OrderCard": "./src/components/OrderCard.tsx",
-    "./tracksgroup": "./src/components/TracksGroup.tsx"
+    "./tracksgroup": "./src/components/TracksGroup.tsx",
+    "./footer": "./src/components/Footer.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",

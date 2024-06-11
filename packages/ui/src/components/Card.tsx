@@ -18,7 +18,7 @@ export default function Card({image, dress, id, content}: CardType) {
       <div className="flex flex-col flex-1">
      <div className="flex flex-col justify-center flex-1">
          <span className="text-2xl font-semibold">{dress}</span>
-         <span className="mt-3 line-clamp-3 text-ellipsis text-sm">{content}</span>
+         <span className="mt-3 line-clamp-3 text-[#666] text-ellipsis text-sm">{content}</span>
       </div>
       <div className="mt-3 flex justify-end">
            <button className="bg-[#111827] group text-sm flex items-center px-8 py-2 rounded-md gap-1 shadow-sm hover:bg-[#111827]/90" onClick={(e) => {

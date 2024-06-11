@@ -29,7 +29,7 @@ export default function OrderCard({orderDate, itemname, service, status}: Order)
          <div className="text-3xl font-thin text-gray-400">/</div>
          <div className="text-md font-semibold text-gray-600">{service}</div>
          </div>
-         <span className="mt-3 line-clamp-2 text-ellipsis text-md">Ordered on {orderDate.toString()}</span>
+         <span className="mt-3 line-clamp-2 text-[#666] text-ellipsis text-md">Ordered on {orderDate.toString()}</span>
       </div>
       <div className="mt-3 flex flex-row justify-between vvsm:flex-col vvsm:gap-4">
            <div className={`flex items-center gap-1 ${(status==='Queued'|| status==='Started' || status ==='Stitched') ? 'text-orange-400' : (status==='Collected')? 'text-[#419453]': 'text-red-400'} transition-all ease-in-out bg-gray-200 px-5 gap-1 rounded-3xl shadow-lg`}>

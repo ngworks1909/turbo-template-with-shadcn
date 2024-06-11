@@ -32,6 +32,9 @@ module.exports = {
       },
       height: {
         'calc' : 'calc(100dvh - 60px)'
+      },
+      minHeight: {
+        'calc' : 'calc(100dvh - 60px)'
       }
     },
   },

@@ -1,6 +1,7 @@
 import Navbar from "@repo/ui/Navbar";
 import Card from "@repo/ui/Card";
 import {CardType} from '@repo/zod/cardtype'
+import Footer from '@repo/ui/footer'
 
 export default function Home() {
   const carditems: CardType[] = [
@@ -47,6 +48,7 @@ export default function Home() {
          })}
       </> 
     </div>
+      <Footer/>
       </div>
     </div>
   );

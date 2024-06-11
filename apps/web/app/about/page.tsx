@@ -1,3 +1,4 @@
+import Footer from '@repo/ui/footer'
 import Navbar from '@repo/ui/Navbar'
 import React from 'react'
 
@@ -36,13 +37,8 @@ export default function page() {
             <span className='text-2xl font-medium'>SAFARI</span>
            </div>
         </div>
-        <div className="flex items-center w-full flex-col bg-[#d7d6d6] pb-10 pt-5">
-          <span className='text-[#666] text-2xl font-semibold'>Our Mission</span>
-          <span className='w-[80%] lg:w-[50%] mt-5'>
-            There's this notion that to grow a business, you have to be ruthless.But we know there is a better way to grow. One where what's good for the bottom line is also good for the customers. We believe businesses can grow with a conscience, and succeed with a soul.
-          </span>
-        </div>
       </div>
+      <Footer/>
       </div>
     </div>
   )

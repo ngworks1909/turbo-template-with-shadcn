@@ -16,10 +16,10 @@ export default function PriceItem({duration, service, price, remaining}: {durati
        <div className="flex flex-col flex-1">
      <div className="flex flex-col justify-center flex-1">
          <span className="text-2xl font-semibold">{service}</span>
-         <span className="mt-3 line-clamp-3 text-ellipsis text-md">Get your item stitched in {duration} {Number(duration) > 1 ? "days": "day"}</span>
+         <span className="mt-3 line-clamp-3 text-[#666] text-ellipsis text-md">Get your item stitched in {duration} {Number(duration) > 1 ? "days": "day"}</span>
       </div>
       <div className="mt-3 flex flex-row justify-between vvsm:flex-col vvsm:gap-4">
-      <span className="text-sm font-medium no-underline px-5 py-4 flex items-center bg-transparent border-[#e5e7eb] border-[1px] shadow-sm h-8 rounded-md bg-[#F4F5F6] transition-all duration-150 ease-in-out vvsm:justify-center">Available Slots: {remaining}</span>
+      <span className="text-sm font-medium no-underline px-5 py-4 flex items-center bg-transparent border-[#e5e7eb] border-[1px] shadow-sm h-8 rounded-md bg-[#F4F5F6] transition-all duration-150 ease-in-out vvsm:justify-center text-[#666]">Available Slots: {remaining}</span>
            <button className="bg-[#111827] group text-sm flex items-center px-8 py-2 rounded-md gap-1 shadow-sm hover:bg-[#111827]/90 vvsm:justify-center">
             <span className="text-white">INR: {price}</span>
            </button>

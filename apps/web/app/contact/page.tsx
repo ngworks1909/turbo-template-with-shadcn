@@ -1,3 +1,4 @@
+import Footer from '@repo/ui/footer';
 import Navbar from '@repo/ui/Navbar'
 import React from 'react'
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
@@ -8,7 +9,8 @@ export default function page() {
   return (
     <div className='h-dvh w-dvw bg-slate-50 overflow-y-auto overflow-x-hidden'>
         <Navbar/>
-        <div className="relative h-calc top-[60px] p-10 md:flex flex-row-reverse justify-around">
+        <div className="relative h-calc top-[60px] flex flex-col">
+          <div className='md:flex flex-row-reverse justify-around p-10'>
           <div className="flex justify-center md:items-center">
           <input type="image" className='h-64 md:h-[370px] rounded-full' src={"https://firebasestorage.googleapis.com/v0/b/tlrs-893dc.appspot.com/o/hello.png?alt=media&token=f8042bcd-6779-4de0-974f-5df4ec668e86"} alt="" />
           </div>
@@ -29,6 +31,8 @@ export default function page() {
             
             
           </div>
+          </div>
+          <Footer/>
         </div>
     </div>
   )
