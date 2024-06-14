@@ -29,6 +29,7 @@ module.exports = {
       },
       boxShadow: {
         'custom': '0 8px 24px rgba(0, 0, 0, 0.5)',
+        'nav': 'inset 0px -1px 0 0 #333',
       },
       height: {
         'calc' : 'calc(100dvh - 60px)'
@@ -39,4 +40,5 @@ module.exports = {
     },
   },
   plugins: [nextui(),require('tailwindcss-animate')],
+  darkMode: 'selector',
 }

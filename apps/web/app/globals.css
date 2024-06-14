@@ -5,11 +5,13 @@
 ::-webkit-scrollbar {
     width: 7px;
     scrollbar-color: white;
+
     
   }
 ::-webkit-scrollbar-thumb {
-    background: black;
+    background: wheat;
     border-radius: 10px;
 }
+
 
   

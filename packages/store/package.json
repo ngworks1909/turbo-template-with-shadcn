@@ -9,6 +9,7 @@
     "./userstate": "./src/atoms/UserState.tsx",
     "./useFetchData": "./src/hooks/useFetchData.tsx",
     "./navopen": "./src/atoms/NavOpen.tsx",
-    "./useCardData": "./src/hooks/useCardData.tsx"
+    "./useCardData": "./src/hooks/useCardData.tsx",
+    "./darkMode": "./src/atoms/DarkMode.tsx"
   }
 }
