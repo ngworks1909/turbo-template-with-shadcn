@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "@repo/ui/providers";
 
-const inter = Inter({ subsets: ["latin"], weight: "500" });
+const inter = Inter({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "Tlrs",

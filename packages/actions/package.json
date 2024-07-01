@@ -5,6 +5,7 @@
     "@repo/ui": "*"
   },
   "exports": {
-    "./fetchOrders": "./src/fetchOrders.ts"
+    "./fetchOrders": "./src/fetchOrders.ts",
+    "./fetchUser": "./src/fetchUser.ts"
   }
 }

@@ -20,7 +20,8 @@ module.exports = {
         'vlg': {'min': '968px'},
         'vvsm': {'min': '0px', 'max': '436px'},
         'vsm': {'min': '437px', 'max': '639px'},
-        'mlg': {'min': '1025px', 'max': '1180px'}
+        'mlg': {'min': '1025px', 'max': '1180px'},
+        'slg': {'min': '1025px'},
         
       },
       transitionProperty: {

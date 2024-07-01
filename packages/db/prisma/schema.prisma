@@ -19,6 +19,7 @@ model User {
   email    String  @unique
   password String
   mobile   String
+  image    String  @default("")
   orders   Order[]
 }
 

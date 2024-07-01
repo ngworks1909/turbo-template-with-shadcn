@@ -4,12 +4,10 @@
 
 ::-webkit-scrollbar {
     width: 7px;
-    scrollbar-color: white;
-
-    
+    scrollbar-color: white; 
   }
 ::-webkit-scrollbar-thumb {
-    background: wheat;
+    background: black;
     border-radius: 10px;
 }
 

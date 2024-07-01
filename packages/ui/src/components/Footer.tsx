@@ -12,8 +12,8 @@ export default function Footer() {
                 <span className="text-2xl font-semibold drop-shadow-md text-[#666]">TLRS</span>
             </div>
             <div className="flex items-center justify-center gap-5">
-              <FaXTwitter size={25}/>
-              <FaInstagram size={25}/>
+              <FaXTwitter size={25} className="cursor-pointer hover:scale-[1.1] ease-in-out duration-200"/>
+              <FaInstagram size={25} className="cursor-pointer hover:scale-[1.1] ease-in-out duration-200"/>
             </div>
         </div>
         <div className="flex flex-col gap-5 vvsm: mt-10">

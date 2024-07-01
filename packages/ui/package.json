@@ -19,7 +19,10 @@
     "./priceskeleton": "./src/skeletons/PriceSkeleton.tsx",
     "./OrderCard": "./src/components/OrderCard.tsx",
     "./tracksgroup": "./src/components/TracksGroup.tsx",
-    "./footer": "./src/components/Footer.tsx"
+    "./footer": "./src/components/Footer.tsx",
+    "./editprofile": "./src/components/EditProfile.tsx",
+    "./updatepassword": "./src/components/UpdatePassword.tsx",
+    "./profilelinks": "./src/components/ProfileLinks.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
