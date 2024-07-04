@@ -16,9 +16,9 @@ export default async function page() {
      <Navbar/>
       <div className="relative top-[60px] h-calc">
         <div className="flex flex-col">
-        <div className='flex h-full px-2 md:px-8'>
-        <div className='flex-1 pt-10 justify-end hidden slg:flex relative'>
-          <div className="flex h-full flex-col w-[300px] fixed">
+        <div className='flex flex-col slg:flex-row h-full px-2 md:px-8'>
+        <div className='flex-1 pt-10 justify-center slg:justify-end flex relative'>
+          <div className="flex h-full flex-col w-[300px] relative slg:fixed">
             <div className='flex flex-col items-center'>
             <input className='rounded-full h-32 w-32' type="image" src={user?.image !== "" ? user?.image : "https://i.pravatar.cc/150?u=a042581f4e29026704d"} alt="H" />
             <span className='mt-5 text-sm font-bold'>{user?.username}</span>

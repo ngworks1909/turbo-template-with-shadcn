@@ -30,7 +30,7 @@ export default function ProfileLinks() {
   //   })
   // })
   return (
-    <div className='flex flex-col mt-10'>
+    <div className='hidden slg:flex flex-col mt-10'>
         <div onClick={async() => {await scrolledToSection('account'); setActive('account')}} className={`flex px-3 py-2 rounded-md cursor-pointer items-center gap-2 ${active === 'account' && 'bg-gray-200'}`}>
         <PiUser className='h-6 w-6'/>
         <span className='font-bold'>Account</span>
