@@ -2,7 +2,6 @@
   "name": "@repo/firebase",
   "version": "1.0.0",
   "dependencies": {
-    "dotenv": "^16.4.5"
   },
   "exports": {
     "./db": "./src/db.ts"
