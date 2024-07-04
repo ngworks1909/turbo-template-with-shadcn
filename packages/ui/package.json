@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "@repo/store": "*",
-    "@repo/db": "*"
+    "@repo/db": "*",
+    "@repo/firebase": "*"
   }
 }
 

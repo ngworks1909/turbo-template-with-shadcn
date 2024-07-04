@@ -6,6 +6,7 @@
   },
   "exports": {
     "./validateUser": "./src/validateUser.ts",
+    "./updateUser": "./src/updateUser.ts",
     "./cardtype": "./src/types/CardType.ts"
   }
 }

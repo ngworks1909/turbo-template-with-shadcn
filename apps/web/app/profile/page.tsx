@@ -32,9 +32,9 @@ export default async function page() {
             <div className="flex bg-gray-200 mt-10 h-48 md:h-44 p-5 rounded-xl justify-between flex-col items-start md:flex-row md:items-center">
               <div className="flex flex-col gap-3">
               <h2 className='text-xl font-bold'>Edit Profile</h2>
-              <span className='max-w-[400px] line-clamp-3'>Update your basic details like name, email, phonenumber</span>
+              <span className='max-w-[400px] line-clamp-3'>Update your basic details like name, phonenumber</span>
               </div>
-              <div className='flex w-full justify-end'><EditProfile/></div>
+              <div className='flex w-full justify-end'><EditProfile profile = {user?.image || "https://i.pravatar.cc/150?u=a042581f4e29026704d"}/></div>
             </div>
             <div className="flex bg-gray-200 mt-10 h-48 md:h-44 p-5 rounded-xl items-center justify-between">
               <div className="flex flex-col gap-3">

@@ -1,0 +1,8 @@
+{
+  "name": "@repo/firebase",
+  "version": "1.0.0",
+  "dependencies": {},
+  "exports": {
+    "./db": "./src/db.ts"
+  }
+}

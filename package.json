@@ -2,7 +2,7 @@
   "name": "tlrs",
   "private": true,
   "scripts": {
-    "build": "cd ./packages/db && npx prisma generate && turbo build",
+    "build": "turbo build",
     "dev": "dotenv -- turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -27,10 +27,11 @@
     "packages/*"
   ],
   "dependencies": {
-    "@nextui-org/react": "^2.4.0",
+    "@nextui-org/react": "^2.4.2",
     "@prisma/client": "^5.14.0",
     "bcryptjs": "^2.4.3",
     "dotenv-cli": "^7.4.1",
+    "firebase": "^10.12.2",
     "framer-motion": "^11.2.9",
     "fs": "^0.0.1-security",
     "next-auth": "^4.24.7",
