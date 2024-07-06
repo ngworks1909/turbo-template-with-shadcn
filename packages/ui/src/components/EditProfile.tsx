@@ -43,13 +43,13 @@ export default function EditProfile({profile}: {profile: string}) {
     }
   }
 
-  const handleUpdate = async({username, mobile}: UpdateUser) => {
+  const handleUpdate = async({username, mobile, image}: UpdateUser) => {
     const response = await fetch('/api/update', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({username, mobile})
+      body: JSON.stringify({username, mobile, image})
     });
     const json = await response.json();
     if(json.success) {
@@ -90,7 +90,7 @@ export default function EditProfile({profile}: {profile: string}) {
                 </Button>
                 <button className="text-white bg-[#111827] group text-sm flex items-center px-5 py-2 rounded-xl gap-1 shadow-sm hover:bg-[#111827]/90 vvsm:justify-center" onClick={async() => {
                    const {username, mobile} = user;
-                   handleUpdate({username, mobile})
+                   handleUpdate({username, mobile, image})
                    onClose();
                 }} >Update</button>
               </ModalFooter>

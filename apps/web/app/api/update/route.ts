@@ -14,14 +14,14 @@ export async function POST(req: NextRequest){
     if(!updateStatus) {
         return NextResponse.json({success, error: "Invalid inputs..."})
     }
-    const {username, mobile} = body;
+    const {username, mobile, image} = body;
     try {
         await prisma.user.update({
             where: {
                 userId: id
             },
             data: {
-                username,mobile
+                username, mobile, image
             }
         })
         success = true;
