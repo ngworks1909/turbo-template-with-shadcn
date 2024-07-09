@@ -5,11 +5,19 @@ import React from 'react'
 import { fetchOrders } from '@repo/actions/fetchOrders'
 import Footer from '@repo/ui/footer'
 
-type Order = {
+type Order = { 
+  orderId: number,
+  userId: string,
   orderDate: Date,
+  basic_price: number,
+  priority: string,
   itemname: string,
   service: string,
   status: string,
+  deliveredOn: Date,
+  reason: string,
+  tax: number,
+  total_price: number 
 }
 
 export default async function page() {
@@ -28,7 +36,7 @@ export default async function page() {
             </div>:
              <div className='grid grid-cols-1 gap-5 px-10 pb-10 pt-5 mlg:grid-cols-1 lg:grid-cols-2'>
                 {orders.map((order: Order, index: number) => {
-                  return <OrderCard key={index} orderDate={order.orderDate} itemname={order.itemname} service={order.service} status={order.status} />
+                  return <OrderCard key={index} order = {order} />
                 })}
              </div>}
         </div>

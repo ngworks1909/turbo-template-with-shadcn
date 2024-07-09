@@ -18,7 +18,6 @@
     "./cardskeleton": "./src/skeletons/CardSkeleton.tsx",
     "./priceskeleton": "./src/skeletons/PriceSkeleton.tsx",
     "./OrderCard": "./src/components/OrderCard.tsx",
-    "./tracksgroup": "./src/components/TracksGroup.tsx",
     "./footer": "./src/components/Footer.tsx",
     "./editprofile": "./src/components/EditProfile.tsx",
     "./updatepassword": "./src/components/UpdatePassword.tsx",
