@@ -12,7 +12,7 @@ export default function page() {
       <div className="relative top-[60px] h-calc">
       <div className='flex items-center justify-center h-full flex-col gap-10'>
         <Image src={construction} className='h-[200px] sm:h-[300px] transition-all ease-linear' alt="Under Development" />
-        <span className='text-xl font-medium text-center'>We're sorry! App is under development</span>
+        <span className='text-xl font-medium text-center'>We're sorry! Page is under development</span>
       </div>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import Footer from '@repo/ui/footer'
 import NavSkeleton from '@repo/ui/navskeleton'
 import React from 'react'
 
