@@ -53,11 +53,15 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        hovered: "rgb(71 90 100 / 1)"
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       keyframes: {
         "accordion-down": {
@@ -69,13 +73,20 @@ const config = {
           to: { height: "0" },
         },
       },
+      height: {
+        calc: "calc(100dvh - 164px)",
+        small: "calc(100dvh - 144px)",
+        friend: "calc(100dvh - 218px)",
+        friendsmall: "calc(100dvh - 192px)"
+      },
+      screens: {
+        mid: {min:"998px"},
+        vsm: {min: "0px", max:"998px"}
+      },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-      },
-      fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
-      },
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
