@@ -3,25 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./Auth": "./src/components/Auth.tsx",
-    "./AuthWrapper": "./src/components/AuthWrapper.tsx",
-    "./Field": "./src/components/Field.tsx",
-    "./Quote": "./src/components/Quote.tsx",
-    "./providers": "./src/providers/providers.tsx",
-    "./Navbar": "./src/components/Navbar.tsx",
-    "./Logout": "./src/components/Logout.tsx",
-    "./Card": "./src/components/Card.tsx",
-    "./pricegroup": "./src/components/PriceGroup.tsx",
-    "./priceitem": "./src/components/PriceItem.tsx",
-    "./auth": "./src/lib/auth.ts",
-    "./navskeleton": "./src/skeletons/NavSkeleton.tsx",
-    "./cardskeleton": "./src/skeletons/CardSkeleton.tsx",
-    "./priceskeleton": "./src/skeletons/PriceSkeleton.tsx",
-    "./OrderCard": "./src/components/OrderCard.tsx",
-    "./footer": "./src/components/Footer.tsx",
-    "./editprofile": "./src/components/EditProfile.tsx",
-    "./updatepassword": "./src/components/UpdatePassword.tsx",
-    "./profilelinks": "./src/components/ProfileLinks.tsx"
+
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -40,9 +22,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@repo/store": "*",
-    "@repo/db": "*",
-    "@repo/firebase": "*"
   }
 }
 
